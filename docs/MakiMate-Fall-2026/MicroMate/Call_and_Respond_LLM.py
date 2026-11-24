@@ -1,8 +1,9 @@
+# Final script
+# Waits for trigger from LLM_Bridge.py (door open);
+# Triggers single image capture and delivers via BT to Pi.
+# Currently using Raspberry Pi Pico 2 W with Arducam Mega 5MP
+# Arduino IDE script for Pico saved in MicroMate-Pico_ImageCapture_AnalogCkt.c
 
-# THIS ONE IS WORKING AS OF 11/20/2026
-# WHEN IN DOUBT GO BACK HERE
-# EXTENSIVELY TESTED
-# RUN TO RECORD AN IMAGE SAVED FOR THE LLM
 import base64
 import os
 import time
